@@ -7,7 +7,12 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
-	return (<Navbar/>,<Jumbotron/>);
+	return (
+		<div>
+			<Navbar />
+			<Jumbotron />
+		</div>
+	);
 };
 
 export default Home;
