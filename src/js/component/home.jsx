@@ -1,9 +1,6 @@
 import React from "react";
-import Jumbotron from "/workspace/landing-page-with-react/src/js/component/jumbotron.jsx";
-import Navbar from "/workspace/landing-page-with-react/src/js/component/navbar.jsx";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import Jumbotron from "./jumbotron.jsx";
+import Navbar from "./navbar.jsx";
 
 //create your first component
 const Home = () => {
