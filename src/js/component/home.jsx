@@ -1,6 +1,8 @@
 import React from "react";
-import Jumbotron from "./jumbotron.jsx";
 import Navbar from "./navbar.jsx";
+import Jumbotron from "./Jumbotron.jsx";
+import Cards from "./Cards.jsx";
+import Footer from "./Footer.jsx";
 
 //create your first component
 const Home = () => {
@@ -10,6 +12,8 @@ const Home = () => {
 			<div className="row">
 				<Jumbotron />
 			</div>
+			<Cards />
+			<Footer />
 		</div>
 	);
 };
